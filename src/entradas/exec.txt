@@ -1,0 +1,10 @@
+lista imprimir
+lista inserir 4 Maria
+lista remover Elza
+lista imprimir
+pilha imprimir
+pilha remover
+pilha inserir Kaillane
+fila imprimir
+fila remover
+fila inserir maria
