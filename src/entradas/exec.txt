@@ -1,10 +1,9 @@
-lista imprimir
-lista inserir 4 Maria
-lista remover Elza
-lista imprimir
-pilha imprimir
-pilha remover
-pilha inserir Kaillane
-fila imprimir
-fila remover
-fila inserir maria
+lista/pilha/fila/arvore
+REMOVER;bola
+IMPRIMIR
+INSERIR;casa
+INSERIR;fone
+IMPRIMIR;
+BUSCAR;colher
+INSERIR;5;Josefina;28;Alemanha
+Buscar;5
