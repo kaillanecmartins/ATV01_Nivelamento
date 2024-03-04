@@ -1,9 +1,4 @@
-lista/pilha/fila/arvore
-REMOVER;bola
-IMPRIMIR
-INSERIR;casa
-INSERIR;fone
-IMPRIMIR;
-BUSCAR;colher
-INSERIR;5;Josefina;28;Alemanha
-Buscar;5
+lista
+inserir;caixa
+remover;bola
+imprimir

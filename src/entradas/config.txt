@@ -1,25 +1,24 @@
 Na pasta "entradas":
-- no arquivo "dados.txt" então presentes os dados iniciais que serão carregados automaticamente nas estruturas.
+- no arquivo "dados.txt" então presentes os dados iniciais que serão carregados automaticamente nas estruturas. 
 - no arquivo "exec.txt" estão presentes os comandos a serem executados pelo programa.
 
 Ordem dos comandos:
 
 para que sejam executados, devem seguir a ordem abaixo
-[ESTRUTURA] [FUNÇÃO] [DADO]
+[FUNÇÃO];[DADO]
 
 ESTRUTURA: lista, pilha, fila, arvore
 FUNÇÃO: inserir, remover, buscar, imprimir
 DADO: dados para serem manipulados pela função, caso a funcão necessite
 
-*OBS: no caso da lista, na função inserir deve ser informado no "exec.txt" não só o dado como também a posição em que será adicionado.
-Nas estruturas pilha e fila a função remover não precisará ser acompanhada do valor a remover já que seguem os princípios da estrutura original.
+*OBS: Nas estruturas pilha e fila a função remover não precisará ser acompanhada do valor a remover já que seguem os princípios da estrutura original.
 
 Exemplo:
 
-lista inserir 1 Joao
-pilha remover
+pilha 
+remover 
 
-para executar o programa siga os passos abaixo:
+para executar o programa siga os passos abaixo: 
 1 - abra o cmd
 2 - selecione o diretorio da pasta do programa
 3 - digite "java -jar NOMEDOARQUIVO.jar" sem as aspas

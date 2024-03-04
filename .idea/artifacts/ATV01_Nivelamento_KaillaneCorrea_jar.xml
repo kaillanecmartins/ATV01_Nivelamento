@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ATV01_Nivelamento_KaillaneCorrea:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ATV01_Nivelamento_KaillaneCorrea_jar</output-path>
+    <root id="archive" name="ATV01_Nivelamento_KaillaneCorrea.jar">
+      <element id="module-output" name="ATV01_Nivelamento_KaillaneCorrea" />
+    </root>
+  </artifact>
+</component>

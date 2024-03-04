@@ -1,4 +1,4 @@
-bola;
-livro;
-celular;
-caneta;
+bola
+livro
+celular
+caneta

@@ -1,3 +1,0 @@
-1;João;20;Centro
-2;Maria;23;Monte Castelo
-3;José;22;João Paulo

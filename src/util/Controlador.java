@@ -18,11 +18,10 @@ public class Controlador {
     }
 
 
-    public void tratar(String comando){
+    public void tratar(String comando, String estrutura){
         Metodos estrDado = null;
 
-        this.comando = new StringTokenizer(comando, " ");
-        String estrutura = this.comando.nextToken().toLowerCase();
+        this.comando = new StringTokenizer(comando, ";");
         String metodo = this.comando.nextToken().toLowerCase();
 
         //Escolher estrutura
@@ -47,17 +46,17 @@ public class Controlador {
             //Escolher método
             if(metodo.equals("inserir")){
                 if(this.comando.hasMoreElements()){
-                    if(estrDado.getClass() != lista.getClass()){
+                    //if(estrDado.getClass() != lista.getClass()){
                         Object dado = this.comando.nextToken("\n").substring(1);
                         estrDado.inserir(dado);
                         System.out.println(dado + " adicionado");
-                    }
-                    else{
+                    //}
+                    /*else{
                         int index = Integer.parseInt(this.comando.nextElement().toString());
                         Object dado = this.comando.nextToken("\n").substring(1);
                         lista.inserirpos(index, dado);
                         System.out.println(dado + " adicionado");
-                    }
+                    }*/
 
                 }else{
                     System.out.println("Dado inválido");
@@ -94,7 +93,7 @@ public class Controlador {
                         }
                     }
                     else{
-                        System.out.println("Falta argumento");
+                        System.out.println("Ordem: " + arv.ordem());
                     }
 
                 }else{
@@ -133,4 +132,3 @@ public class Controlador {
 
     }
 }
-
